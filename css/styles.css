@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.topcontainer {
+  background-color: #E4F9F5;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+h3 {
+  color: #66BFBF;
+  /*font-weight: bolder;*/
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 3.125em;
+  /*16px = 100% == 1em */
+  margin-top: 15px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  /*line-height: 2*/
+}
+
+h2 {
+  color: #66BFBF;
+}
+
+.prog {
+  margin-top: 0;
+  text-decoration: underline;
+}
+
+.bottomcloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.topcloud {
+  position: absolute;
+  right: 300px;
+  top: 30px;
+}
+
+.sun {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}
+
+.skill-row {
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.skills {
+  margin-bottom: 70px;
+}
+
+.webdev {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+/* to unwrap the text we can use property called clear. eg. clear: left */
+.python {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.c {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
+.linkedin, .instagram, .twitter {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.logo {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.dot {
+  border-color: grey;
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+  height: 0;
+  width: 5%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 20px;
+}
+
+.BUTTON_KCE {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -webkit-gradient(to bottom, #66BFBF, #66BFBF);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 50;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 10px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #FFFFFF 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_KCE:hover {
+  background: #50DCDC;
+  border: solid white 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
